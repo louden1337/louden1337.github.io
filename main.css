@@ -1,21 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Roboto:ital,wght@1,700&display=swap');
+
+@keyframes fadeIn {
+    from {
+        top: 0%;
+        opacity: 0%;
+    }
+    to {
+        top: 50%;
+        opacity: 50%;
+    }
+}
+
+@keyframes hover {
+    from {
+        opacity: 100%;
+    }
+    to {
+        opacity: 50%;
+    }
+}
 .main {
     background: black;
-    font-size: 80px;
-    color: white;
+    font-size: 50px;
     align-items: center;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
-    padding: 50px;
+    padding: 200px;
+    padding-top: 1px;
     border-radius: 25px;
-    z-index: 100;
+    position: relative;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    opacity: 50%;
+    animation: fadeIn 2s;
 }
 
 .bg {
-    background-image: url(bg.gif);
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
     background-size: cover;
     filter: blur(25px);
     position: absolute;
+    
+}
+
+body {
+    background-color: white;
+}
+
+.name {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    top: 15%;
+    position: absolute;
+    font-size: 32px;
+}
+
+.socials {
+    bottom: 15%;
+    position: absolute;
+    height: 40%;
+    display: inline-flex;
+}
+
+#twitter {
+    width: 50%;
+    position: relative;
+}
+#github {
+    width: 50%;
+    position: relative;
+}
+#youtube {
+    width: 50%;
+    position: relative;
+}
+
+#deselect {
+    -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
+}
+
+a {
+    top: 65%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+
+.note {
+    top: 98%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Poppins;
+    font-size: 10px;
+    margin: 0;
+}
+
+img:hover {
+    animation: hover 200ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
