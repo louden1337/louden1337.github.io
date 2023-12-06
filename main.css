@@ -20,7 +20,6 @@
 .main {
     background: black;
     font-size: 50px;
-    align-items: center;
     display: inline-flex;
     justify-content: center;
     padding: 200px;
@@ -33,7 +32,7 @@
     left: 50%;
     opacity: 50%;
     animation: fadeIn 2s;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .bg {
@@ -50,7 +49,7 @@
 
 body {
     background-color: white;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .name {
@@ -62,7 +61,7 @@ body {
 }
 
 .socials {
-    bottom: 15%;
+    bottom: 25%;
     position: absolute;
     height: 40%;
     display: inline-flex;
