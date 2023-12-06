@@ -33,6 +33,7 @@
     left: 50%;
     opacity: 50%;
     animation: fadeIn 2s;
+    overflow: hidden;
 }
 
 .bg {
@@ -45,11 +46,11 @@
     background-size: cover;
     filter: blur(25px);
     position: absolute;
-    
 }
 
 body {
     background-color: white;
+    overflow: hidden;
 }
 
 .name {
