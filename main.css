@@ -66,6 +66,7 @@ body {
     height: 40%;
     display: inline-flex;
     align-items: center;
+    display: -webkit-inline-flex
 }
 
 #twitter {
