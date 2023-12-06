@@ -1,0 +1,21 @@
+.main {
+    background: black;
+    font-size: 80px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 25px;
+    z-index: 100;
+}
+
+.bg {
+    background-image: url(bg.gif);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    filter: blur(25px);
+    position: absolute;
+}
