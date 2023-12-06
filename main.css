@@ -63,8 +63,9 @@ body {
 .socials {
     bottom: 25%;
     height: 40%;
-    align-items: center;
+    -webkit-align-items: center;
     display: -webkit-inline-flex;
+    position: absolute;
 }
 
 #twitter {
