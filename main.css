@@ -66,19 +66,23 @@ body {
     position: absolute;
     height: 40%;
     display: inline-flex;
+    align-items: center;
 }
 
 #twitter {
     width: 50%;
     position: relative;
+    align-items: center;
 }
 #github {
     width: 50%;
     position: relative;
+    align-items: center;
 }
 #youtube {
     width: 50%;
     position: relative;
+    align-items: center;
 }
 
 #deselect {
