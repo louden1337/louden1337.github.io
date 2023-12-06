@@ -73,16 +73,19 @@ body {
     width: 50%;
     position: relative;
     align-items: center;
+    justify-content: center;
 }
 #github {
     width: 50%;
     position: relative;
     align-items: center;
+    justify-content: center;
 }
 #youtube {
     width: 50%;
     position: relative;
     align-items: center;
+    justify-content: center;
 }
 
 #deselect {
