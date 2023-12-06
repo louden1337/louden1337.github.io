@@ -67,6 +67,7 @@ body {
     -webkit-align-items: center;
     display: -webkit-inline-flex;
     position: absolute;
+    margin: 0;
 }
 
 #twitter {
@@ -74,18 +75,21 @@ body {
     position: relative;
     align-items: center;
     justify-content: center;
+    margin: 0;
 }
 #github {
     width: 50%;
     position: relative;
     align-items: center;
     justify-content: center;
+    margin: 0;
 }
 #youtube {
     width: 50%;
     position: relative;
     align-items: center;
     justify-content: center;
+    margin: 0;
 }
 
 #deselect {
