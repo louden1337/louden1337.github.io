@@ -1,4 +1,22 @@
+@keyframes fadeIn {
+    from {
+        top: 0%;
+        opacity: 0%;
+    }
+    to {
+        top: 50%;
+        opacity: 50%;
+    }
+}
 
+@keyframes hover {
+    from {
+        opacity: 100%;
+    }
+    to {
+        opacity: 50%;
+    }
+}
 .main {
     background: black;
     font-size: 50px;
