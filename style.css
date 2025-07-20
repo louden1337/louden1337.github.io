@@ -1,0 +1,76 @@
+body {
+    background: black;
+    padding: 2em;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+.main {
+    font-size: 4vmax;
+
+}
+.light {
+  font-family: "Sansation", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.reg {
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bold {
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+
+.cat {
+  padding: 2rem;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 4vw;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link-small {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.description {
+  font-size: 4rem;
+}
+.description-small {
+  font-size: 2rem;
+  width: 75vw;
+}
+
+.description-tiny {
+  font-size: .75rem;
+  width: 75vw;
+}
+
+.image-size {
+  width: 1rem;
+}
